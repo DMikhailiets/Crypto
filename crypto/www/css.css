@@ -1,0 +1,307 @@
+
+	.sub-menu 
+{ 
+   display: none; 
+} 
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: block; 
+} 
+
+   .sub-menu11 
+{ 
+	display: none;
+	position: relative; /* Относительное позиционирование */
+    left: 1em; /* Сдвигаем вниз */
+} 
+.main-item:focus ~ .sub-menu11, 
+.main-item:active ~ .sub-menu11, 
+.sub-menu11:hover 
+{ 
+   display: block; 
+} 
+
+   .sub-menu12
+{ 
+	display: none;
+	position: relative; /* Относительное позиционирование */
+    left: 1em; /* Сдвигаем вниз */
+} 
+.main-item:focus ~ .sub-menu11, 
+.main-item:active ~ .sub-menu11, 
+.sub-menu11:hover 
+{ 
+   display: block; 
+} 
+
+   .sub-menu2 
+{ 
+	display: none;
+	position: relative; /* Относительное позиционирование */
+    left: 1em; /* Сдвигаем вниз */
+} 
+.main-item:focus ~ .sub-menu2, 
+.main-item:active ~ .sub-menu2, 
+.sub-menu2:hover 
+{ 
+   display: block; 
+} 
+
+   .sub-menu21 
+{ 
+	display: none;
+	position: relative; /* Относительное позиционирование */
+    left: 1em; /* Сдвигаем вниз */
+} 
+.main-item:focus ~ .sub-menu21, 
+.main-item:active ~ .sub-menu21, 
+.sub-menu21:hover 
+{ 
+   display: block; 
+} 
+
+
+
+
+.design{text-decoration:none; text-align:justify; 
+ padding:2px 40px;
+ display:block; 
+ border:solid 1px #ffffff; 
+  
+ font:18px "Lucida Console", Monaco, monospace; 
+ 
+ color:#1506bd; 
+ background:#30BFBF; 
+ 
+ }
+ .design:hover{
+ padding:2px 40px; 
+ border:solid 1px #ffffff; 
+ font:18px "Lucida Console", Monaco, monospace; 
+ color:#e5ffff; 
+ background:#0707FF; 
+ }
+
+ .design:active{ 
+ padding:2px 40px; 
+ border:solid 1px #ffffff;  
+ font:18px "Lucida Console", Monaco, monospace; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background:#30BFBF; 
+  
+ }
+ UL {
+    list-style: none;
+}
+UL, LI {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    html {
+		  overflow-x: hidden;}
+		  
+	input { overflow-y: hidden;
+		  overflow-x: hidden;}
+
+	  #okno {
+        padding: 15px;
+		background-color:#30BFBF;
+        display: none;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+		z-index: 3;
+		box-shadow: 15px 15px 0px -1px rgba(0, 0, 0, .8);
+		
+      }
+	  
+      #okno:target {display: table;}
+      .close {
+        display: inline-block;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  
+	  
+	  #okno1 {
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        padding: 15px;
+        border: 3px solid #0000cc;
+        border-radius: 10px;
+        color: #0000cc;
+		background-color:#33CCCC;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+      }
+	  
+      #okno1:target {display: flex;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  
+	  
+	  #okno2 {
+        padding: 15px;
+		background-color:#30BFBF;
+        display: none;
+        position: absolute;
+        top: 150px;
+        right: 0;
+        bottom: 0;
+        left: 200;
+        margin: auto;
+		z-index: 3;
+		box-shadow: 15px 15px 0px -1px rgba(0, 0, 0, .8);
+      }
+	  
+      #okno2:target {display: table;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  
+	  #okno3 {
+        padding: 15px;
+		background-color:#30BFBF;
+        display: none;
+        position: absolute;
+        top: 150px;
+        right: 0;
+        bottom: 0;
+        left: 200;
+        margin: auto;
+		z-index: 3;
+		box-shadow: 15px 15px 0px -1px rgba(0, 0, 0, .8);
+      }
+	  
+      #okno3:target {display: table;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  
+	  #interfeisy {
+        padding: 15px;
+		background-color:#30BFBF;
+        display: none;
+        position: absolute;
+        top: 150px;
+        right: 0;
+        bottom: 0;
+        left: 200;
+        margin: auto;
+		z-index: 4;
+		box-shadow: 15px 15px 0px -1px rgba(0, 0, 0, .8);
+      }
+	  
+      #interfeisy:target {display: table;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  
+	  #tunnel {
+        padding: 15px;
+		background-color:#30BFBF;
+        display: none;
+        position: absolute;
+        top: 150px;
+        right: 0;
+        bottom: 0;
+        left: 200;
+        margin: auto;
+		z-index: 4;
+		box-shadow: 15px 15px 0px -1px rgba(0, 0, 0, .8);
+      }
+	  
+      #tunnel:target {display: table;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  
+	  	  #filter {
+        padding: 15px;
+		background-color:#30BFBF;
+        display: none;
+        position: absolute;
+        top: 150px;
+        right: 0;
+        bottom: 0;
+        left: 200;
+        margin: auto;
+		z-index: 4;
+		box-shadow: 15px 15px 0px -1px rgba(0, 0, 0, .8);
+      }
+	  
+      #filter:target {display: table;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+	  
+
+      .close:hover {background: #e6e6ff;}
+
